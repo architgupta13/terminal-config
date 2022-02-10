@@ -128,7 +128,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-export DOCKER_POSTGIS_IMAGE="public.ecr.aws/flyhomes/postgis:m1"
 export DOCKER_ARCH_TYPE="arm64"
 
 export GOPATH="/Users/architgupta/Projects/Study/Go"
@@ -141,4 +140,3 @@ mkcd ()
 {
   mkdir -p -- "$1" && cd -P -- "$1"
 }
-export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
